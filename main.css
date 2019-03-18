@@ -22,3 +22,9 @@ form button {
   border-radius: 5px;
   box-shadow: 1px blue;
 }
+
+#valid {
+  display: none;
+  padding: 5px;
+  color: whitesmoke;
+}
