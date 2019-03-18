@@ -1,0 +1,24 @@
+form#address-form {
+  background-color: grey;
+  margin: 30px auto;
+  float: none;
+  padding: 10px; 
+  width: 30vw;
+}
+
+form label {
+  font-weight: 500;
+}
+
+form input {
+  display: block;
+  margin-bottom: 15px;
+  width: 25vw;
+  padding: 10px;
+  border-radius: 5px;
+}
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px blue;
+}
