@@ -10,7 +10,7 @@ $(document).ready(() => {
     const baseUrlUS = `https://us-street.api.smartystreets.com/street-address?${authInfo}&`;
     const baseUrlInt = `https://international-street.api.smartystreets.com/verify?${authInfo}&`
     const requestUrlUS = `${baseUrlUS}${queriesUS}`;
-    const requestUrlInt = `${baseUrlInt}country=${formData.country}&locality=${formData.locality}&administrative_area=${formData.state}&address1=${formData.street}&postal_code=${formData.zipcode}&address-type=international-street-components`
+    const requestUrlInt = `${baseUrlInt}country=${formData.country}&locality=${formData.city}&administrative_area=${formData.state}&address1=${formData.street}&postal_code=${formData.zipcode}&address-type=international-street-components`
     if ( formData.country === 'United States' )  {
       $.getJSON(requestUrlUS, response => {
         if ( !response.length ) {
